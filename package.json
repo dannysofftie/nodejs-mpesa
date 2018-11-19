@@ -1,33 +1,33 @@
 {
-  "name": "node-mpesa-wrapper",
-  "version": "0.0.1",
-  "description": "Wrapper for Kenya's Safaricom - ISP Mpesa mobile money gateway API. Includes all of Safaricom Mpesa's API. ",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm run test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/DannySofftie/node-mpesa-wrapper.git"
-  },
-  "keywords": [
-    "Mpesa",
-    "mpesa",
-    "safaricom",
-    "mpesa-api",
-    "safaricom-api",
-    "node-mpesa"
-  ],
-  "author": "Danny Sofftie",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DannySofftie/node-mpesa-wrapper/issues"
-  },
-  "homepage": "https://github.com/DannySofftie/node-mpesa-wrapper#readme",
-  "devDependencies": {
-    "@types/node": "^10.5.2"
-  },
-  "dependencies": {
-    "dotenv": "^6.0.0"
-  }
+    "name": "node-mpesa-wrapper",
+    "version": "0.0.1",
+    "description": "Wrapper for Kenya's Safaricom - ISP Mpesa mobile money gateway API. Includes all of Safaricom Mpesa's API. ",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node-dev --respawn --transpileOnly --no-notify test/b2ctest.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/DannySofftie/node-mpesa-wrapper.git"
+    },
+    "keywords": [
+        "Mpesa",
+        "mpesa",
+        "safaricom",
+        "mpesa-api",
+        "safaricom-api",
+        "node-mpesa"
+    ],
+    "author": "Danny Sofftie",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DannySofftie/node-mpesa-wrapper/issues"
+    },
+    "homepage": "https://github.com/DannySofftie/node-mpesa-wrapper#readme",
+    "devDependencies": {
+        "@types/node": "^10.5.2"
+    },
+    "dependencies": {
+        "dotenv": "^6.0.0"
+    }
 }
